@@ -108,3 +108,17 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 425px) {
+  .App {
+    width: 220px;
+
+    .result button {
+      padding: 10px 13px;
+    }
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+}
